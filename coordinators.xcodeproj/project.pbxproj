@@ -17,6 +17,7 @@
 		12B91D2322F4585100C0FABE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2222F4585100C0FABE /* MainCoordinator.swift */; };
 		12B91D2522F4593F00C0FABE /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2422F4593F00C0FABE /* BuyViewController.swift */; };
 		12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */; };
+		12B91D2922F4725800C0FABE /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2822F4725800C0FABE /* BuyCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		12B91D2222F4585100C0FABE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		12B91D2422F4593F00C0FABE /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		12B91D2822F4725800C0FABE /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				12B91D0C22F4554900C0FABE /* AppDelegate.swift */,
 				12B91D0E22F4554900C0FABE /* ViewController.swift */,
+				12B91D2822F4725800C0FABE /* BuyCoordinator.swift */,
 				12B91D1E22F4567100C0FABE /* Coordinator.swift */,
 				12B91D2022F456F000C0FABE /* Storyboarded.swift */,
 				12B91D2222F4585100C0FABE /* MainCoordinator.swift */,
@@ -153,6 +156,7 @@
 				12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */,
 				12B91D0F22F4554900C0FABE /* ViewController.swift in Sources */,
 				12B91D0D22F4554900C0FABE /* AppDelegate.swift in Sources */,
+				12B91D2922F4725800C0FABE /* BuyCoordinator.swift in Sources */,
 				12B91D1F22F4567100C0FABE /* Coordinator.swift in Sources */,
 				12B91D2322F4585100C0FABE /* MainCoordinator.swift in Sources */,
 				12B91D2122F456F000C0FABE /* Storyboarded.swift in Sources */,
