@@ -12,6 +12,11 @@
 		12B91D1222F4554900C0FABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B91D1022F4554900C0FABE /* Main.storyboard */; };
 		12B91D1422F4554900C0FABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B91D1322F4554900C0FABE /* Assets.xcassets */; };
 		12B91D1722F4554900C0FABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B91D1522F4554900C0FABE /* LaunchScreen.storyboard */; };
+		12B91D1F22F4567100C0FABE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D1E22F4567100C0FABE /* Coordinator.swift */; };
+		12B91D2122F456F000C0FABE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2022F456F000C0FABE /* Storyboarded.swift */; };
+		12B91D2322F4585100C0FABE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2222F4585100C0FABE /* MainCoordinator.swift */; };
+		12B91D2522F4593F00C0FABE /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2422F4593F00C0FABE /* BuyViewController.swift */; };
+		12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		12B91D1322F4554900C0FABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B91D1622F4554900C0FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B91D1822F4554900C0FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B91D1E22F4567100C0FABE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		12B91D2022F456F000C0FABE /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		12B91D2222F4585100C0FABE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		12B91D2422F4593F00C0FABE /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				12B91D0C22F4554900C0FABE /* AppDelegate.swift */,
 				12B91D0E22F4554900C0FABE /* ViewController.swift */,
+				12B91D1E22F4567100C0FABE /* Coordinator.swift */,
+				12B91D2022F456F000C0FABE /* Storyboarded.swift */,
+				12B91D2222F4585100C0FABE /* MainCoordinator.swift */,
+				12B91D2422F4593F00C0FABE /* BuyViewController.swift */,
+				12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */,
 				12B91D1022F4554900C0FABE /* Main.storyboard */,
 				12B91D1322F4554900C0FABE /* Assets.xcassets */,
 				12B91D1522F4554900C0FABE /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */,
 				12B91D0F22F4554900C0FABE /* ViewController.swift in Sources */,
 				12B91D0D22F4554900C0FABE /* AppDelegate.swift in Sources */,
+				12B91D1F22F4567100C0FABE /* Coordinator.swift in Sources */,
+				12B91D2322F4585100C0FABE /* MainCoordinator.swift in Sources */,
+				12B91D2122F456F000C0FABE /* Storyboarded.swift in Sources */,
+				12B91D2522F4593F00C0FABE /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
