@@ -19,6 +19,8 @@
 		12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */; };
 		12B91D2922F4725800C0FABE /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2822F4725800C0FABE /* BuyCoordinator.swift */; };
 		12B91D2B22F4798A00C0FABE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2A22F4798A00C0FABE /* MainTabBarController.swift */; };
+		12B91D2D22F47B7000C0FABE /* Buying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2C22F47B7000C0FABE /* Buying.swift */; };
+		12B91D2F22F47B8900C0FABE /* AccountCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91D2E22F47B8900C0FABE /* AccountCreating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		12B91D2622F4594900C0FABE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		12B91D2822F4725800C0FABE /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		12B91D2A22F4798A00C0FABE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		12B91D2C22F47B7000C0FABE /* Buying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buying.swift; sourceTree = "<group>"; };
+		12B91D2E22F47B8900C0FABE /* AccountCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				12B91D0C22F4554900C0FABE /* AppDelegate.swift */,
 				12B91D0E22F4554900C0FABE /* ViewController.swift */,
 				12B91D2822F4725800C0FABE /* BuyCoordinator.swift */,
+				12B91D2C22F47B7000C0FABE /* Buying.swift */,
+				12B91D2E22F47B8900C0FABE /* AccountCreating.swift */,
 				12B91D1E22F4567100C0FABE /* Coordinator.swift */,
 				12B91D2022F456F000C0FABE /* Storyboarded.swift */,
 				12B91D2222F4585100C0FABE /* MainCoordinator.swift */,
@@ -156,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B91D2F22F47B8900C0FABE /* AccountCreating.swift in Sources */,
 				12B91D2722F4594900C0FABE /* CreateAccountViewController.swift in Sources */,
+				12B91D2D22F47B7000C0FABE /* Buying.swift in Sources */,
 				12B91D0F22F4554900C0FABE /* ViewController.swift in Sources */,
 				12B91D2B22F4798A00C0FABE /* MainTabBarController.swift in Sources */,
 				12B91D0D22F4554900C0FABE /* AppDelegate.swift in Sources */,

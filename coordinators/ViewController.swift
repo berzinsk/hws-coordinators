@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboarded {
-    weak var coordinator: MainCoordinator?
+    weak var coordinator: (Buying & AccountCreating)?
     @IBOutlet weak var product: UISegmentedControl!
     
     override func viewDidLoad() {

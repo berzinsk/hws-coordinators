@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
+class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate, Buying, AccountCreating {
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
 
