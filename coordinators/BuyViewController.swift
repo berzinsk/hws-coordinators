@@ -10,9 +10,12 @@ import UIKit
 
 class BuyViewController: UIViewController, Storyboarded {
     weak var coordinator: BuyCoordinator?
+    @IBOutlet weak var selectedProductLabel: UILabel!
+    var selectedProduct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        selectedProductLabel.text = "Selected product: \(selectedProduct)"
     }
 }

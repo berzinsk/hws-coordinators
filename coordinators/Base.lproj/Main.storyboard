@@ -38,21 +38,34 @@
                                     <action selector="createAccount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HIO-es-WcR"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0tH-Rh-H99">
+                                <rect key="frame" x="146.5" y="108" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lId-IF-Hax" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Kz-sv-tAd"/>
                             <constraint firstItem="aFI-40-e7K" firstAttribute="top" secondItem="lId-IF-Hax" secondAttribute="bottom" constant="32" id="EH2-sT-TgN"/>
+                            <constraint firstItem="0tH-Rh-H99" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MxA-0x-HHs"/>
                             <constraint firstItem="aFI-40-e7K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XVu-aO-eOQ"/>
+                            <constraint firstItem="0tH-Rh-H99" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="c1Y-tl-d58"/>
                             <constraint firstItem="lId-IF-Hax" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h3E-ae-bO9"/>
                             <constraint firstItem="0cQ-YU-y7P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oiz-3a-Pwn"/>
                             <constraint firstItem="0cQ-YU-y7P" firstAttribute="top" secondItem="aFI-40-e7K" secondAttribute="bottom" constant="16" id="ysw-ew-i52"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="product" destination="0tH-Rh-H99" id="9Wi-lj-Hzu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1" y="27"/>
         </scene>
         <!--Buy View Controller-->
         <scene sceneID="dZS-7s-KCj">
@@ -68,14 +81,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected product:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9d-06-ZAX">
+                                <rect key="frame" x="138.5" y="522.5" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ls5-A1-ez7" firstAttribute="centerY" secondItem="jXJ-It-EUK" secondAttribute="centerY" id="CH9-8t-hAE"/>
+                            <constraint firstItem="S9d-06-ZAX" firstAttribute="top" secondItem="Ls5-A1-ez7" secondAttribute="bottom" constant="64" id="Dds-9M-22Y"/>
                             <constraint firstItem="Ls5-A1-ez7" firstAttribute="centerX" secondItem="jXJ-It-EUK" secondAttribute="centerX" id="WTQ-kK-KqZ"/>
+                            <constraint firstItem="S9d-06-ZAX" firstAttribute="centerX" secondItem="jXJ-It-EUK" secondAttribute="centerX" id="bmr-C1-duQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XVZ-Qd-5gb"/>
                     </view>
+                    <connections>
+                        <outlet property="selectedProductLabel" destination="S9d-06-ZAX" id="WAi-TH-hq6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pVI-Yw-kgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

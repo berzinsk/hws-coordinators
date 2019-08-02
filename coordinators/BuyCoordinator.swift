@@ -18,7 +18,15 @@ class BuyCoordinator: Coordinator {
     }
 
     func start() {
+        // We could actually remove this required method from Coordinator protocol so that we don't have empty start method for all coordinators
         let vc = BuyViewController.instantiate()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+
+    func start(withProduct product: Int) {
+        let vc = BuyViewController.instantiate()
+        vc.selectedProduct = product
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
