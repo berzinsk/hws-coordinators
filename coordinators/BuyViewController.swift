@@ -15,11 +15,4 @@ class BuyViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
 
     }
-
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-
-        // this could also be inside some button event
-        coordinator?.didFinishBuying()
-    }
 }
